@@ -123,4 +123,11 @@
     if (e.target.closest('.som')) return;
     if (somAtivo && musica.paused) tocarMusica();
   }, true);
+
+  function tentarAutoplay() {
+    if (somAtivo && musica.paused) tocarMusica();
+  }
+
+  tentarAutoplay();
+  musica.addEventListener('canplaythrough', tentarAutoplay, { once: true });
 })();
