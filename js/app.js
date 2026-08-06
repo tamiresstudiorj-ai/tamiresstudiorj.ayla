@@ -28,6 +28,10 @@
   companheira.style.setProperty('--sz', '30px');
   document.body.appendChild(companheira);
 
+  var brisa = criarBorboleta('guia');
+  brisa.style.setProperty('--sz', '22px');
+  document.body.appendChild(brisa);
+
   function voarBorboleta(el, direcao, cfg) {
     if (reduzir || !el.animate) return;
     var h = window.innerHeight;
@@ -51,6 +55,7 @@
   function voarGuia(direcao) {
     voarBorboleta(guia, direcao, { saida: 0.55, altura: 0.28, chegada: 0.4, forca: 1, duracao: 850, atraso: 0 });
     voarBorboleta(companheira, direcao, { saida: 0.63, altura: 0.4, chegada: 0.52, forca: 0.85, duracao: 1050, atraso: 140 });
+    voarBorboleta(brisa, direcao, { saida: 0.47, altura: 0.2, chegada: 0.58, forca: 0.6, duracao: 1250, atraso: 300 });
   }
 
   function ondularJardim(direcao) {
@@ -90,4 +95,32 @@
     if (e.key === 'ArrowRight') mostrar(atual + 1);
     if (e.key === 'ArrowLeft') mostrar(atual - 1);
   });
+
+  var musica = document.getElementById('musica-fundo');
+  var botaoSom = document.getElementById('botao-som');
+  var somAtivo = true;
+
+  function tocarMusica() {
+    var tentativa = musica.play();
+    if (tentativa && tentativa.catch) tentativa.catch(function () {});
+  }
+
+  function atualizarBotaoSom() {
+    botaoSom.classList.toggle('mudo', !somAtivo);
+    botaoSom.setAttribute('aria-pressed', String(!somAtivo));
+    botaoSom.setAttribute('aria-label', somAtivo ? 'Silenciar a música' : 'Ativar a música');
+  }
+
+  botaoSom.addEventListener('click', function (e) {
+    e.stopPropagation();
+    somAtivo = !somAtivo;
+    if (somAtivo) tocarMusica();
+    else musica.pause();
+    atualizarBotaoSom();
+  });
+
+  document.addEventListener('click', function (e) {
+    if (e.target.closest('.som')) return;
+    if (somAtivo && musica.paused) tocarMusica();
+  }, true);
 })();
