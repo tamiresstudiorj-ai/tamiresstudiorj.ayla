@@ -890,8 +890,8 @@ button.opcao {
   .tela.is-active .pilula.entra,
   .bfly .asa,
   .jardim .bfly,
-  .bfly.solta,
-  .bfly.pousa {
+  .tela.is-active .bfly.solta.entra,
+  .tela.is-active .bfly.pousa.entra {
     animation: none;
   }
   .entra,
