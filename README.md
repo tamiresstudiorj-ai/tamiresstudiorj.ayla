@@ -67,5 +67,5 @@ já que o layout é voltado para celular).
 ## Publicação
 
 Hospedado no GitHub Pages a partir do repositório
-[tamiresstudiorj-ai/convite-virtual](https://github.com/tamiresstudiorj.ai/convite-virtual).
+[https://github.com/tamiresstudiorj.ai/convite-virtual](https://github.com/tamiresstudiorj.ai/convite-virtual).
 Qualquer push na branch `main` atualiza o site publicado.
