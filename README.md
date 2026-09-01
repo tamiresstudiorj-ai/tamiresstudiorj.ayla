@@ -1,6 +1,6 @@
 # Convite Virtual — 1º Aninho da Ayla
 
-Convite de aniversário digital e interativo para o primeiro aninho da Antonella, com tema de
+Convite de aniversário digital e interativo para o primeiro aninho da Ayla, com tema de
 jardim/floresta encantada em aquarela rosa e lilás. Feito para ser enviado pelo WhatsApp e aberto
 direto no celular, com experiência de "story": telas em sequência que avançam com um toque.
 
@@ -35,7 +35,7 @@ Detalhes da experiência:
 ## Estrutura de arquivos
 
 ```
-convite_antonella/
+convite_ayla/
 ├── index.html          # Estrutura das 6 telas, meta tags e Open Graph
 ├── css/
 │   └── style.css       # Estilos, animações e responsividade
@@ -67,5 +67,5 @@ já que o layout é voltado para celular).
 ## Publicação
 
 Hospedado no GitHub Pages a partir do repositório
-[fabnepomuceno2023/convite-virtual](https://tamiresstudiorj-ai/convite-virtual/).
+[tamiresstudiorj-ai/convite-virtual](https://tamiresstudiorj-ai/convite-virtual/).
 Qualquer push na branch `main` atualiza o site publicado.
