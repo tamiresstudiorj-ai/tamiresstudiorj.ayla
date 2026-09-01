@@ -4,7 +4,7 @@ Convite de aniversário digital e interativo para o primeiro aninho da Ayla, com
 jardim/floresta encantada em aquarela rosa e lilás. Feito para ser enviado pelo WhatsApp e aberto
 direto no celular, com experiência de "story": telas em sequência que avançam com um toque.
 
-**Convite publicado em:** https://tamiresstudiorj-ai/convite-virtual/
+**Convite publicado em:** https://tamiresstudiorj.ai/convite-virtual/
 
 ## Como funciona
 
@@ -67,5 +67,5 @@ já que o layout é voltado para celular).
 ## Publicação
 
 Hospedado no GitHub Pages a partir do repositório
-[tamiresstudiorj-ai/convite-virtual](https://tamiresstudiorj-ai/convite-virtual/).
+[tamiresstudiorj-ai/convite-virtual](https://tamiresstudiorj.ai/convite-virtual/).
 Qualquer push na branch `main` atualiza o site publicado.
