@@ -1,17 +1,17 @@
-# Convite Virtual — 1º Aninho da Antonella
+# Convite Virtual — 1º Aninho da Ayla
 
 Convite de aniversário digital e interativo para o primeiro aninho da Antonella, com tema de
 jardim/floresta encantada em aquarela rosa e lilás. Feito para ser enviado pelo WhatsApp e aberto
 direto no celular, com experiência de "story": telas em sequência que avançam com um toque.
 
-**Convite publicado em:** https://fabnepomuceno2023.github.io/convite-virtual/
+**Convite publicado em:** https://tamiresstudiorj-ai/convite-virtual/
 
 ## Como funciona
 
 O convite tem 6 telas navegáveis:
 
 1. **Portão do jardim** — abertura com "Toque para entrar"
-2. **Convite principal** — "1º Aninho da Antonella"
+2. **Convite principal** — "1º Aninho da Ayla"
 3. **Data e local** — dia, horário e endereço da festa
 4. **Opções** — "Como chegar" e "Sugestões de presente", com botão flutuante
    **Confirmar presença** que abre o WhatsApp com a mensagem de confirmação já preenchida
@@ -67,5 +67,5 @@ já que o layout é voltado para celular).
 ## Publicação
 
 Hospedado no GitHub Pages a partir do repositório
-[fabnepomuceno2023/convite-virtual](https://github.com/fabnepomuceno2023/convite-virtual).
+[fabnepomuceno2023/convite-virtual](https://tamiresstudiorj-ai/convite-virtual/).
 Qualquer push na branch `main` atualiza o site publicado.
